@@ -63,12 +63,18 @@ body
     width: 300px;
     height: 300px;
     border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+    border-style: solid;
+    border-color: white;
+    border-width: 0px;
 }
 
-#pava_photo
+.photo_pava:hover
 {
-    width: 600px;
-    height: 600px;
+    border-width: 0.5px;
+    margin: 0px 10px 0px 10px;
+    border-radius: 5px;
+    cursor: help;
 }
 
 #christmas_music_div
