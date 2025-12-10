@@ -22,7 +22,7 @@ a:hover
 
 #header
 {
-    position: fixed;
+    /*position: fixed;*/
     width: 100%;
     height: 180px;
     background-image: url(https://avatanplus.com/files/resources/original/58b84fb95992315a8ff76c17.png);
