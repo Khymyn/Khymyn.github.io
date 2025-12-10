@@ -12,6 +12,23 @@ body
 a
 {
     text-decoration: none;
+    transition: color 0.2s ease-in-out;
+}
+
+a:hover
+{
+    color: antiquewhite;
+}
+
+#header
+{
+    position: fixed;
+    width: 100%;
+    height: 180px;
+    background-image: url(https://avatanplus.com/files/resources/original/58b84fb95992315a8ff76c17.png);
+    background-position: top;
+    background-size: auto;
+    pointer-events: none;
 }
 
 #main
@@ -65,11 +82,12 @@ a
 
 #pavatxt
 {
+    display: inline;
     margin: 0 auto;
-    font-size: 150px;
-    padding-bottom: 20px;
+    margin-bottom: 50px;
+    font-size: 120px;
+    line-height: 0.8;
     text-align: center;
-    max-width: 800px;
 }
 
 .photo_pava
@@ -94,7 +112,6 @@ a
 #christmas_music_div
 {
     padding-top: 20px;
-    padding-bottom: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -103,5 +120,5 @@ a
 #christmas_music
 {
     text-align: center;
-    font-size: 50px;
+    font-size: 90px;
 }
