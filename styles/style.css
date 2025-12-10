@@ -122,3 +122,12 @@ a:hover
     text-align: center;
     font-size: 90px;
 }
+
+.snowflake
+{
+    position: fixed;
+    color: white;
+    user-select: none;
+    pointer-events: none;
+    z-index: -1;
+}
