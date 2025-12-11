@@ -145,14 +145,21 @@ a:hover
     justify-content: center;
 }
 
+#first_letter
+{
+    position: relative;
+    display: inline-block;
+}
+
 #hat
 {
     position: absolute;
-    width: 10%;
-    right: 64.5%;
-    bottom: 62%;
+    top: 2%;
+    left: -10%;
+    width: 1.3em;
     pointer-events: none;
 }
+
 
 #christmas_music
 {
