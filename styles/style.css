@@ -47,7 +47,7 @@ a:hover
     gap: 20px;
     padding: 20px;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 3vh;
 }
 
 #photos
@@ -74,7 +74,6 @@ a:hover
 
 .txt
 {
-
     color: #8a6be8;
     font-size: 2em;
     font-weight: bold;
@@ -168,7 +167,6 @@ a:hover
     left: -0.12em;
     width: 1.4em;
     pointer-events: none;
-    
 }
 
 #christmas_music
@@ -194,24 +192,37 @@ a:hover
     {
         grid-template-columns: repeat(2, 1fr);
     }
-
     .txt
     {
         font-size: 5vw;
     }
     #christmas_music
     {
-        font-size: 65px;
+        font-size: 45px;
     }
     .photo
     {
         height: 35vw;
         width: 35vw;
     }
+    .photo:hover
+    {
+        border-radius: 2.5vw;
+    }
     #hat
     {
         top: 0.02em;
         left: -0.06em;
         width: 1.3em;
+    }
+    .snowflake
+    {
+        font-size: 0.5em;
+    }
+    .photo_pava
+    {
+        width: 30vw;
+        height: 30vw;
+        border-radius: 3vw;
     }
 }
