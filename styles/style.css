@@ -50,14 +50,14 @@ a:hover
 #photos
 {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
 
 .photo
 {
-    width: 300px;
-    height: 300px;
+    width: 20vw;
+    height: 20vw;
     object-fit: cover;
     border-radius: 15px;
 }
@@ -164,7 +164,7 @@ a:hover
 #christmas_music
 {
     text-align: center;
-    font-size: 90px;
+    font-size: 10vw;
 }
 
 .snowflake
