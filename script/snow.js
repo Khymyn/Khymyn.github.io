@@ -1,19 +1,24 @@
-const snowflakes = 100;
+function createSnowflakes() {
+    const screenWidth = window.innerWidth;
 
-for (let i = 0; i < snowflakes; i++)
-{
-    let snow = document.createElement('div');
-    snow.textContent = '❄';
-    snow.classList.add('snowflake');
+    let snowflakeCount = 100;
 
-    snow.style.left = Math.random() * window.innerWidth + 'px';
-    snow.style.top = Math.random() * window.innerHeight + 'px';
-    document.body.appendChild(snow);
+    if (screenWidth < 600) {
+        snowflakeCount = 25;
+    } else if (screenWidth < 900) {
+        snowflakeCount = 35;
+    }
 
-    setInterval(function() {
-        let currentTop = parseFloat(snow.style.top);
-        currentTop++;
-        if (currentTop > window.innerHeight) currentTop = 0;
-        snow.style.top = currentTop + 'px';
-    }, 30);
+    for (let i = 0; i < snowflakeCount; i++) {
+        let snowflake = document.createElement("div");
+        snowflake.classList.add("snowflake");
+        snowflake.innerHTML = "❄";
+
+        snowflake.style.left = Math.random() * 100 + "vw";
+        snowflake.style.animationDuration = 3 + Math.random() * 5 + "s";
+
+        document.body.appendChild(snowflake);
+    }
 }
+
+createSnowflakes();
