@@ -100,6 +100,51 @@ a:hover
     text-shadow: 4px 3px 2px rgba(0,0,0,0.5);
 }
 
+#Happy_birthday
+{
+    display: flex;
+    justify-content: center;
+    margin: 6vw 5vw 6vw 5vw;
+    gap: 3vw;
+}
+
+#andriy_div
+{
+    position: relative;
+    display: inline-block;
+}
+
+#andriy_div::after
+{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('../photo/frame.png') no-repeat center/cover;
+    pointer-events: none;
+    z-index: 10;
+}
+
+#wish
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 2.5vw;
+    color: #e0e7fa;
+    text-shadow: 4px 3px 2px rgba(0,0,0,0.5);
+    font-variant: small-caps;
+    font-style: oblique;
+}
+
+#andriy
+{
+    width: 45vw;
+    height: 50vw;
+    display: block;
+}
+
 #pava
 {
     display: flex;
@@ -181,7 +226,7 @@ a:hover
     color: #a49e92;
     user-select: none;
     pointer-events: none;
-    z-index: -1;
+    z-index: -9999;
     animation: fall linear infinite;
 }
 
@@ -219,7 +264,7 @@ a:hover
     #hat
     {
         top: -0.12em;
-        left: -0.18em;
+        left: -0.19em;
         width: 1.6em;
     }
     .snowflake
@@ -245,5 +290,20 @@ a:hover
     #christmas_music_div
     {
         margin-bottom: 0;
+    }
+    #Happy_birthday
+    {
+        flex-direction: column;
+        align-items: center;
+        margin: 20vw 5vw 20vw 5vw;
+    }
+    #andriy
+    {
+        width: 65vw;
+        height: 75vw;
+    }
+    #wish
+    {
+        font-size: 4vw;
     }
 }
