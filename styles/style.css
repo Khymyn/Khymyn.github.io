@@ -248,7 +248,7 @@ a:hover
     }
 }
 
-@media(max-width: 600px)
+@media(max-width: 700px)
 {
     #photos
     {
@@ -274,7 +274,7 @@ a:hover
     #hat
     {
         top: -0.12em;
-        left: -0.2em;
+        left: -0.21em;
         width: 1.6em;
     }
     .snowflake
@@ -300,24 +300,5 @@ a:hover
     #christmas_music_div
     {
         margin-bottom: 0;
-    }
-    #Happy_birthday
-    {
-        flex-direction: column;
-        align-items: center;
-        margin: 20vw 5vw 20vw 5vw;
-    }
-    #andriy
-    {
-        width: 65vw;
-        height: 75vw;
-    }
-    #wish
-    {
-        font-size: 4vw;
-    }
-    #wish a
-    {
-        font-size: 5vw;
     }
 }
